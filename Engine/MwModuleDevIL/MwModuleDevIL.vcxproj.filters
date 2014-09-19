@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7b0b1391-bf4a-48ba-b671-3bedc45214ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media">
+      <UniqueIdentifier>{232b5430-7c91-4b2d-8ca6-eceeb317502e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Image">
+      <UniqueIdentifier>{6ec656b1-09cb-4163-8b37-32056e85a6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Image\DevIL">
+      <UniqueIdentifier>{2be1805e-a106-4bb1-8d19-ccad24082ed0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\dllMain.cpp" />
+    <ClCompile Include="Source\Media\Image\DevIL\MwILImage.cpp">
+      <Filter>Source\Media\Image\DevIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Image\DevIL\MwILImageDispatcher.cpp">
+      <Filter>Source\Media\Image\DevIL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\MeshworkEngine.h" />
+    <ClInclude Include="Source\Media\Image\DevIL\MwILImageDispatcher.h">
+      <Filter>Source\Media\Image\DevIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Image\DevIL\MwILImage.h">
+      <Filter>Source\Media\Image\DevIL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

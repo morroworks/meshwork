@@ -1,0 +1,1330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{470ecc42-611d-4f0b-b47f-5c2dc8ed2520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine">
+      <UniqueIdentifier>{5edfd2a3-e580-4172-82cf-77a191addb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Base">
+      <UniqueIdentifier>{e7721ab1-af43-4983-9571-3d685699d25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities">
+      <UniqueIdentifier>{f378ce52-cdac-4269-b23d-2e414f048591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Primitive">
+      <UniqueIdentifier>{c5d4d891-924a-4216-930e-c74346fc8ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Properties">
+      <UniqueIdentifier>{76c3ecaf-6591-43f1-8ff9-b12db741aee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Utilities">
+      <UniqueIdentifier>{76ea546e-fd4b-4fe1-8fcd-22fd3aa94e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\Camera">
+      <UniqueIdentifier>{9269ed00-72ff-47ff-98d1-5ecc99795a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\Material">
+      <UniqueIdentifier>{211c835a-fdbb-49b8-8b81-cf1ec7cb4c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\Mechanisms">
+      <UniqueIdentifier>{86c05bf5-ea0a-47ef-884b-26d18211c366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\Mesh">
+      <UniqueIdentifier>{32ee64bd-9446-4058-9f21-1d2e44056e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\Transform">
+      <UniqueIdentifier>{64489f5a-9629-4aeb-8490-a87c2909f8ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Utilities\Geometry">
+      <UniqueIdentifier>{cff120e5-caed-4167-9cbd-aac7182caf52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Utilities\Normals">
+      <UniqueIdentifier>{d49c93a9-7afa-4c04-9f8a-4525f4569ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Utilities\TexCoords">
+      <UniqueIdentifier>{6e84fe62-2298-4b6f-baaa-5b7123a39bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FileSystem">
+      <UniqueIdentifier>{01aaf463-7555-4031-bd13-5976a35c8b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{08568d4c-1c37-4c42-b9f0-4be6f0739ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media">
+      <UniqueIdentifier>{bc6d2cb1-33df-4c8d-9b5e-32de7035b945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sound">
+      <UniqueIdentifier>{40dbecc0-6933-4506-9d4d-d7d4969a889d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools">
+      <UniqueIdentifier>{e88ba45a-95c5-41cb-ae22-10b9867ee166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FileSystem\PhysicalFileSystem">
+      <UniqueIdentifier>{1019ab03-dd68-4dc4-93fb-6297a7a08f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\DeviceIndependent">
+      <UniqueIdentifier>{ebf0428a-7dd5-422e-9bbd-129d41debfbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Soras">
+      <UniqueIdentifier>{4a988674-4eb8-4233-acfd-04a051d56f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Soras\Engine">
+      <UniqueIdentifier>{578bc5e9-e64a-4a39-a241-d4e210088c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Soras\Engine\Primitive">
+      <UniqueIdentifier>{773de2f9-42d8-4db9-a764-24b22a923d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Networking">
+      <UniqueIdentifier>{e9378f38-c95b-433d-8444-1e2d9d520b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\OS">
+      <UniqueIdentifier>{a2b2b249-31e2-4145-babe-49c6d485a26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Streams">
+      <UniqueIdentifier>{321c28e7-1642-469f-9e79-12f0a1811370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Threading">
+      <UniqueIdentifier>{722431bf-1ba4-4454-811d-b84ae2fd805e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Networking\TCPIP">
+      <UniqueIdentifier>{c5aea8a5-8f5d-4d40-897b-ff59749d2186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Networking\WebServer">
+      <UniqueIdentifier>{322e44e6-282a-4c6a-a809-ff3dc75b0d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools\Networking\WebServer\WebPageComponents">
+      <UniqueIdentifier>{8cfdfdf7-8c53-4259-a5e3-b85fed2393f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Image">
+      <UniqueIdentifier>{596b7e31-4767-4ef0-9650-25dedadf996e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Sound">
+      <UniqueIdentifier>{bfc4c46a-b068-4f42-9bad-0776d702d171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Scene">
+      <UniqueIdentifier>{9426de51-b0df-4505-ab6c-3cb40e8ac29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Utilities\Serialization">
+      <UniqueIdentifier>{3ba6627d-970d-4dfd-be9b-0b51f9c0c360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Scene\Native">
+      <UniqueIdentifier>{624f2b64-b0ec-44d2-81cd-2ea7a2f111f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Scene\3ds">
+      <UniqueIdentifier>{7c653d57-9c78-43a5-aae3-f5a7bcf9269c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Scene\3ds\File3ds">
+      <UniqueIdentifier>{8e4060c3-8e9f-4150-bab6-f52afeed8bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Sound\Wav">
+      <UniqueIdentifier>{2f10c40e-4cc4-4402-993d-1ef941461e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Sound\Wav\WavFile">
+      <UniqueIdentifier>{8c6fc461-83cb-4549-bf07-24b85212c9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\EntitySet">
+      <UniqueIdentifier>{dbc490dd-424e-4d17-b8f2-e9f4f0cd2172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Script">
+      <UniqueIdentifier>{5c47e2b2-5c77-46dd-9cdd-9929661d4527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Script\Parsing">
+      <UniqueIdentifier>{bc562de9-abb8-4d77-9f17-f226ed8e0eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Script\Processing">
+      <UniqueIdentifier>{786f7b70-a6c0-460c-8cd0-4b17a92649c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Script\Parsing\Expressions">
+      <UniqueIdentifier>{11fd5485-b82e-43b6-b87e-7829d9a78b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Scene\Obj">
+      <UniqueIdentifier>{d0fcfe96-762c-45d6-b72f-e526ae91803f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Media\Scene\Obj\FileObj">
+      <UniqueIdentifier>{6b17a4b3-15d7-4ab0-b216-e2b94fc92362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Utilities\SmoothGrouping">
+      <UniqueIdentifier>{861a0d27-07a1-4f4e-9526-3222d737ecde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Utilities\SubMesh">
+      <UniqueIdentifier>{61c3fa47-b356-428c-872b-b50769cf0c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\Light">
+      <UniqueIdentifier>{15022400-1ff7-4df4-ab61-80b8fbfb18ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation">
+      <UniqueIdentifier>{40058407-cc7b-4880-848f-2591295e9e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Utilities\Tangents">
+      <UniqueIdentifier>{0a8965c3-6d65-4b20-8b3d-dcc3f0dc5efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\Sound">
+      <UniqueIdentifier>{f2eea9c7-e483-4a42-b219-cfcfd575aa5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\SoundEmitter">
+      <UniqueIdentifier>{69ff984d-1f41-4db7-9963-ace3c75cbdc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\SoundReceptor">
+      <UniqueIdentifier>{d79bb3d5-9e4b-4099-87e5-b9699b0b8065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\Textures">
+      <UniqueIdentifier>{7e83c9e4-115b-427d-9077-1e651684da39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine\Entities\Script">
+      <UniqueIdentifier>{080d4851-758e-4bf5-b614-d0adf0e5fecc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Engine\Meshwork.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\MwRayIntersectionEvents.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\MwRenderEvents.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\MwScreenPickEvents.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\MwTraceEvents.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\MwTraceParameters.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Base\MwBaseResource.h">
+      <Filter>Source\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Base\MwResourceType.h">
+      <Filter>Source\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Camera\MwCamera.h">
+      <Filter>Source\Engine\Entities\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Material\MwMaterial.h">
+      <Filter>Source\Engine\Entities\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Material\MwMaterialShaderSlot.h">
+      <Filter>Source\Engine\Entities\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwBaseMechanism.h">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwDirectionLagMechanism.h">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwDirectionMechanism.h">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwFloatMechanism.h">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwLinearMechanism.h">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwNegateFloatMechanism.h">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwPivotalMechanism.h">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwSineMechanism.h">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mesh\MwMesh.h">
+      <Filter>Source\Engine\Entities\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Transform\MwTransform.h">
+      <Filter>Source\Engine\Entities\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Transform\MwTransformOperation.h">
+      <Filter>Source\Engine\Entities\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Transform\MwTransformSlot.h">
+      <Filter>Source\Engine\Entities\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Textures\MwTexture2D.h">
+      <Filter>Source\Engine\Entities\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\MwTimer.h">
+      <Filter>Source\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Normals\MwGenerateNormals.h">
+      <Filter>Source\Engine\Utilities\Normals</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\TexCoords\MwPlanarTexCoords.h">
+      <Filter>Source\Engine\Utilities\TexCoords</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\TexCoords\MwSphericalTexCoords.h">
+      <Filter>Source\Engine\Utilities\TexCoords</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwBoxGeometry.h">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwConvexHullGeometry.h">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwCopyGeometry.h">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwHeightMapGeometry.h">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwIcosahedronGeometry.h">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwMergeGeometry.h">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwPlaneGeometry.h">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwSphereGeometry.h">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Properties\MwParameter.h">
+      <Filter>Source\Engine\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Properties\MwParameterType.h">
+      <Filter>Source\Engine\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Properties\MwProperty.h">
+      <Filter>Source\Engine\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwBounds.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwColorOperation.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwIntersectionInfo.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwMatrix.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwPixelFormat.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwRenderState.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwShaderOperation.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwVector2.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwVector3.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwVector4.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwVertex.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileSystem\MwFileSystem.h">
+      <Filter>Source\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileSystem\PhysicalFileSystem\MwPhysicalFileSystem.h">
+      <Filter>Source\FileSystem\PhysicalFileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\DeviceIndependent\MwDeviceIndependentMesh.h">
+      <Filter>Source\Graphics\DeviceIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\MwDeviceMesh.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\MwDeviceTexture2D.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\MwGraphicsDevice.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\MwSorasGraphicsDevice.h">
+      <Filter>Source\Graphics\Soras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\MwSorasMesh.h">
+      <Filter>Source\Graphics\Soras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\MwSorasTexture2D.h">
+      <Filter>Source\Graphics\Soras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Soras.h">
+      <Filter>Source\Graphics\Soras\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\SrMesh.h">
+      <Filter>Source\Graphics\Soras\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\SrRenderThread.h">
+      <Filter>Source\Graphics\Soras\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\SrTexture.h">
+      <Filter>Source\Graphics\Soras\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrARGB.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrARGBInt.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrCullModes.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrLight.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrMaterial.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrMatrix.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrShaderOperations.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrShadingParameters.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrTextureSamplers.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrUnit.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector2Int.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector3.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector3Int.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVertex.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshworkEngine.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Networking\TCPIP\MwTcpIpConnection.h">
+      <Filter>Source\Tools\Networking\TCPIP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Networking\TCPIP\MwTcpIpListener.h">
+      <Filter>Source\Tools\Networking\TCPIP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Networking\TCPIP\MwTcpIpServer.h">
+      <Filter>Source\Tools\Networking\TCPIP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageComponent.h">
+      <Filter>Source\Tools\Networking\WebServer\WebPageComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageFileListing.h">
+      <Filter>Source\Tools\Networking\WebServer\WebPageComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageHostName.h">
+      <Filter>Source\Tools\Networking\WebServer\WebPageComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Networking\WebServer\MwWebRequest.h">
+      <Filter>Source\Tools\Networking\WebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Networking\WebServer\MwWebResponse.h">
+      <Filter>Source\Tools\Networking\WebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Networking\WebServer\MwWebServer.h">
+      <Filter>Source\Tools\Networking\WebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\OS\MwDrawSurface.h">
+      <Filter>Source\Tools\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\OS\MwOSUtils.h">
+      <Filter>Source\Tools\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\OS\MwWindowsForm.h">
+      <Filter>Source\Tools\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Streams\MwBaseStream.h">
+      <Filter>Source\Tools\Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Streams\MwFileStream.h">
+      <Filter>Source\Tools\Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Streams\MwMemoryStream.h">
+      <Filter>Source\Tools\Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Streams\MwSubStream.h">
+      <Filter>Source\Tools\Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Threading\MwMutex.h">
+      <Filter>Source\Tools\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Threading\MwThread.h">
+      <Filter>Source\Tools\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Threading\MwThreadsPool.h">
+      <Filter>Source\Tools\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Threading\MwThreadsPoolThread.h">
+      <Filter>Source\Tools\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwDictionary.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwIntegralQuotientDistribution.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwLinkedList.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwList.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwMem.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwRandomPool.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwStack.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwStrings.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwString.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Image\MwImage.h">
+      <Filter>Source\Media\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Serialization\MwHierarchyStreamReader.h">
+      <Filter>Source\Engine\Utilities\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Serialization\MwHierarchyStreamWriter.h">
+      <Filter>Source\Engine\Utilities\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Native\MwNativeFileId.h">
+      <Filter>Source\Media\Scene\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Native\MwNativeFileReader.h">
+      <Filter>Source\Media\Scene\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Native\MwNativeFileWriter.h">
+      <Filter>Source\Media\Scene\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Native\MwNativeScene.h">
+      <Filter>Source\Media\Scene\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\MwScene.h">
+      <Filter>Source\Media\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Native\MwNativeSceneDispatcher.h">
+      <Filter>Source\Media\Scene\Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\MwMaths.h">
+      <Filter>Source\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwMath.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\MwMedia.h">
+      <Filter>Source\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\3ds\Mw3dsScene.h">
+      <Filter>Source\Media\Scene\3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\3ds\Mw3dsSceneDispatcher.h">
+      <Filter>Source\Media\Scene\3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3ds.h">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsBaseObject.h">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsCamera.h">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsHierarchy.h">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsKeyFrames.h">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsLight.h">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsMaterial.h">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsMesh.h">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsPrimitiveTypes.h">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Sound\Wav\WavFile\MwWavFile.h">
+      <Filter>Source\Media\Sound\Wav\WavFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\EntitySet\MwEntitySet.h">
+      <Filter>Source\Engine\Entities\EntitySet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\MwSerializationParameters.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MwGlobals.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwSortedLinkedList.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\MwBinaryTree.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\MwCodeBuilder.h">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\MwScriptTokens.h">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Processing\MwCodeProcessor.h">
+      <Filter>Source\Script\Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\MwScriptToken.h">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\MwScriptIdentifiers.h">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\MwScriptDataType.h">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\MwScriptDataTypes.h">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\MwScriptIdentifier.h">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionVariable.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionAssignment.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionConstantValue.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionEvaluation.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpression.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionUnion.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionVariableDeclaration.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionIf.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionWhile.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionFor.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionDo.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionCallout.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionTernaryIf.h">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tools\Networking\TCPIP\MwTcpIpClient.h">
+      <Filter>Source\Tools\Networking\TCPIP</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Obj\FileObj\MwFileObjPrimitiveTypes.h">
+      <Filter>Source\Media\Scene\Obj\FileObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Obj\FileObj\MwFileObj.h">
+      <Filter>Source\Media\Scene\Obj\FileObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Obj\FileObj\MwFileObjMaterial.h">
+      <Filter>Source\Media\Scene\Obj\FileObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Obj\FileObj\MwFileObjMesh.h">
+      <Filter>Source\Media\Scene\Obj\FileObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Obj\MwObjSceneDispatcher.h">
+      <Filter>Source\Media\Scene\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Obj\MwObjScene.h">
+      <Filter>Source\Media\Scene\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Scene\Obj\FileObj\MwFileObjTextureMap.h">
+      <Filter>Source\Media\Scene\Obj\FileObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FileSystem\MwFileInfo.h">
+      <Filter>Source\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector4Int.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector4.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector4Int.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector4.h">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\SmoothGrouping\MwSmoothGroupingPrimitiveTypes.h">
+      <Filter>Source\Engine\Utilities\SmoothGrouping</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\SmoothGrouping\MwSmoothGrouping.h">
+      <Filter>Source\Engine\Utilities\SmoothGrouping</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\SubMesh\MwSubMesh.h">
+      <Filter>Source\Engine\Utilities\SubMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\SubMesh\MwSubMeshPrimitiveTypes.h">
+      <Filter>Source\Engine\Utilities\SubMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\MwSorasGraphicsDeviceDispatcher.h">
+      <Filter>Source\Graphics\Soras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\MwDeviceShader.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Soras\MwSorasShader.h">
+      <Filter>Source\Graphics\Soras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\DeviceIndependent\MwDeviceIndependentShader.h">
+      <Filter>Source\Graphics\DeviceIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Light\MwLight.h">
+      <Filter>Source\Engine\Entities\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrame.h">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameRotationAxis.h">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameRotationEuler.h">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameScaling.h">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFramesTrack.h">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameTranslation.h">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwKeyFrameAnimationMechanism.h">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Base\MwDispatcher.h">
+      <Filter>Source\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Base\MwEntity.h">
+      <Filter>Source\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Base\MwEntityDispatcher.h">
+      <Filter>Source\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\MwStandardEntityDispatcher.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\Tangents\MwTangentsGenerator.h">
+      <Filter>Source\Engine\Utilities\Tangents</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Utilities\MwLogging.h">
+      <Filter>Source\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\MwAudioDevice.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\MwAudioDeviceSound.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Sound\MwSoundMedia.h">
+      <Filter>Source\Media\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\MwAudioDeviceSoundEmitter.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Sound\Wav\MwWavSoundMedia.h">
+      <Filter>Source\Media\Sound\Wav</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Sound\MwSound.h">
+      <Filter>Source\Engine\Entities\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\SoundEmitter\MwSoundEmitter.h">
+      <Filter>Source\Engine\Entities\SoundEmitter</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Media\Sound\Wav\MwWavSoundMediaDispatcher.h">
+      <Filter>Source\Media\Sound\Wav</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Primitive\MwPCMFormat.h">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\SoundReceptor\MwSoundReceptor.h">
+      <Filter>Source\Engine\Entities\SoundReceptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\MwAudioDeviceSoundReceptor.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwLinearInterpolationMechanism.h">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Properties\MwBoundProperty.h">
+      <Filter>Source\Engine\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwTimeRateMechanism.h">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Entities\Script\MwScript.h">
+      <Filter>Source\Engine\Entities\Script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Engine\Meshwork.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\MwRayIntersectionEvents.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\MwRenderEvents.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\MwScreenPickEvents.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\MwTraceEvents.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\MwTraceParameters.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Base\MwBaseResource.cpp">
+      <Filter>Source\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Camera\MwCamera.cpp">
+      <Filter>Source\Engine\Entities\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Material\MwMaterial.cpp">
+      <Filter>Source\Engine\Entities\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Material\MwMaterialShaderSlot.cpp">
+      <Filter>Source\Engine\Entities\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwBaseMechanism.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwDirectionLagMechanism.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwDirectionMechanism.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwFloatMechanism.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwLinearMechanism.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwNegateFloatMechanism.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwPivotalMechanism.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwSineMechanism.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mesh\MwMesh.cpp">
+      <Filter>Source\Engine\Entities\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Transform\MwTransform.cpp">
+      <Filter>Source\Engine\Entities\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Transform\MwTransformSlot.cpp">
+      <Filter>Source\Engine\Entities\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Textures\MwTexture2D.cpp">
+      <Filter>Source\Engine\Entities\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\MwTimer.cpp">
+      <Filter>Source\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Normals\MwGenerateNormals.cpp">
+      <Filter>Source\Engine\Utilities\Normals</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\TexCoords\MwPlanarTexCoords.cpp">
+      <Filter>Source\Engine\Utilities\TexCoords</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\TexCoords\MwSphericalTexCoords.cpp">
+      <Filter>Source\Engine\Utilities\TexCoords</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwBoxGeometry.cpp">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwConvexHullGeometry.cpp">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwCopyGeometry.cpp">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwHeightMapGeometry.cpp">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwIcosahedronGeometry.cpp">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwMergeGeometry.cpp">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwPlaneGeometry.cpp">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwSphereGeometry.cpp">
+      <Filter>Source\Engine\Utilities\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Properties\MwParameter.cpp">
+      <Filter>Source\Engine\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Properties\MwProperty.cpp">
+      <Filter>Source\Engine\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Primitive\MwBounds.cpp">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Primitive\MwIntersectionInfo.cpp">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Primitive\MwMatrix.cpp">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Primitive\MwPixelFormat.cpp">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Primitive\MwVector2.cpp">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Primitive\MwVector3.cpp">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Primitive\MwVector4.cpp">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Primitive\MwVertex.cpp">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileSystem\MwFileSystem.cpp">
+      <Filter>Source\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FileSystem\PhysicalFileSystem\MwPhysicalFileSystem.cpp">
+      <Filter>Source\FileSystem\PhysicalFileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\DeviceIndependent\MwDeviceIndependentMesh.cpp">
+      <Filter>Source\Graphics\DeviceIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\MwDeviceMesh.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\MwDeviceTexture2D.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\MwGraphicsDevice.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\MwSorasGraphicsDevice.cpp">
+      <Filter>Source\Graphics\Soras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\MwSorasMesh.cpp">
+      <Filter>Source\Graphics\Soras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\MwSorasTexture2D.cpp">
+      <Filter>Source\Graphics\Soras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\Engine\Soras.cpp">
+      <Filter>Source\Graphics\Soras\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\Engine\SrMesh.cpp">
+      <Filter>Source\Graphics\Soras\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\Engine\SrRenderThread.cpp">
+      <Filter>Source\Graphics\Soras\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\Engine\SrTexture.cpp">
+      <Filter>Source\Graphics\Soras\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\Engine\Primitive\SrCullModes.cpp">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\Engine\Primitive\SrMatrix.cpp">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\Engine\Primitive\SrShaderOperations.cpp">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\Engine\Primitive\SrTextureSamplers.cpp">
+      <Filter>Source\Graphics\Soras\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Networking\TCPIP\MwTcpIpConnection.cpp">
+      <Filter>Source\Tools\Networking\TCPIP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Networking\TCPIP\MwTcpIpListener.cpp">
+      <Filter>Source\Tools\Networking\TCPIP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Networking\TCPIP\MwTcpIpServer.cpp">
+      <Filter>Source\Tools\Networking\TCPIP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageComponent.cpp">
+      <Filter>Source\Tools\Networking\WebServer\WebPageComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageFileListing.cpp">
+      <Filter>Source\Tools\Networking\WebServer\WebPageComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageHostName.cpp">
+      <Filter>Source\Tools\Networking\WebServer\WebPageComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Networking\WebServer\MwWebRequest.cpp">
+      <Filter>Source\Tools\Networking\WebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Networking\WebServer\MwWebResponse.cpp">
+      <Filter>Source\Tools\Networking\WebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Networking\WebServer\MwWebServer.cpp">
+      <Filter>Source\Tools\Networking\WebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\OS\MwDrawSurface.cpp">
+      <Filter>Source\Tools\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\OS\MwOSUtils.cpp">
+      <Filter>Source\Tools\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\OS\MwWindowsForm.cpp">
+      <Filter>Source\Tools\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Streams\MwBaseStream.cpp">
+      <Filter>Source\Tools\Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Streams\MwFileStream.cpp">
+      <Filter>Source\Tools\Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Streams\MwMemoryStream.cpp">
+      <Filter>Source\Tools\Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Streams\MwSubStream.cpp">
+      <Filter>Source\Tools\Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Threading\MwMutex.cpp">
+      <Filter>Source\Tools\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Threading\MwThread.cpp">
+      <Filter>Source\Tools\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Threading\MwThreadsPool.cpp">
+      <Filter>Source\Tools\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Threading\MwThreadsPoolThread.cpp">
+      <Filter>Source\Tools\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\MwIntegralQuotientDistribution.cpp">
+      <Filter>Source\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\MwMem.cpp">
+      <Filter>Source\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\MwRandomPool.cpp">
+      <Filter>Source\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\MwStrings.cpp">
+      <Filter>Source\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\MwString.cpp">
+      <Filter>Source\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Image\MwImage.cpp">
+      <Filter>Source\Media\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Serialization\MwHierarchyStreamReader.cpp">
+      <Filter>Source\Engine\Utilities\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Serialization\MwHierarchyStreamWriter.cpp">
+      <Filter>Source\Engine\Utilities\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\Native\MwNativeFileReader.cpp">
+      <Filter>Source\Media\Scene\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\Native\MwNativeFileWriter.cpp">
+      <Filter>Source\Media\Scene\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\Native\MwNativeScene.cpp">
+      <Filter>Source\Media\Scene\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\MwScene.cpp">
+      <Filter>Source\Media\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\Native\MwNativeSceneDispatcher.cpp">
+      <Filter>Source\Media\Scene\Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\MwMaths.cpp">
+      <Filter>Source\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\MwMath.cpp">
+      <Filter>Source\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\MwMedia.cpp">
+      <Filter>Source\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\3ds\Mw3dsScene.cpp">
+      <Filter>Source\Media\Scene\3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\3ds\Mw3dsSceneDispatcher.cpp">
+      <Filter>Source\Media\Scene\3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3ds.cpp">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsBaseObject.cpp">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsCamera.cpp">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsHierarchy.cpp">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsKeyFrames.cpp">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsLight.cpp">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsMaterial.cpp">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsMesh.cpp">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsPrimitiveTypes.cpp">
+      <Filter>Source\Media\Scene\3ds\File3ds</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Sound\Wav\WavFile\MwWavFile.cpp">
+      <Filter>Source\Media\Sound\Wav\WavFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\EntitySet\MwEntitySet.cpp">
+      <Filter>Source\Engine\Entities\EntitySet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\MwCodeBuilder.cpp">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\MwScriptTokens.cpp">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Processing\MwCodeProcessor.cpp">
+      <Filter>Source\Script\Processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\MwScriptToken.cpp">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\MwScriptToken.cpp" />
+    <ClCompile Include="Source\Script\Parsing\MwScriptDataType.cpp">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\MwScriptDataTypes.cpp">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\MwScriptIdentifier.cpp">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\MwScriptIdentifiers.cpp">
+      <Filter>Source\Script\Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionAssignment.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionConstantValue.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionEvaluation.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionVariable.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpression.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionUnion.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionVariableDeclaration.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionIf.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionFor.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionWhile.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionDo.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionCallout.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionTernaryIf.cpp">
+      <Filter>Source\Script\Parsing\Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Networking\TCPIP\MwTcpIpClient.cpp">
+      <Filter>Source\Tools\Networking\TCPIP</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\Obj\FileObj\MwFileObj.cpp">
+      <Filter>Source\Media\Scene\Obj\FileObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\Obj\FileObj\MwFileObjMaterial.cpp">
+      <Filter>Source\Media\Scene\Obj\FileObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\Obj\FileObj\MwFileObjMesh.cpp">
+      <Filter>Source\Media\Scene\Obj\FileObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\Obj\FileObj\MwFileObjPrimitiveTypes.cpp">
+      <Filter>Source\Media\Scene\Obj\FileObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\Obj\MwObjScene.cpp">
+      <Filter>Source\Media\Scene\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\Obj\MwObjSceneDispatcher.cpp">
+      <Filter>Source\Media\Scene\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Scene\Obj\FileObj\MwFileObjTextureMap.cpp">
+      <Filter>Source\Media\Scene\Obj\FileObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\SmoothGrouping\MwSmoothGrouping.cpp">
+      <Filter>Source\Engine\Utilities\SmoothGrouping</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\SubMesh\MwSubMesh.cpp">
+      <Filter>Source\Engine\Utilities\SubMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\dllMain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\MwSorasGraphicsDeviceDispatcher.cpp">
+      <Filter>Source\Graphics\Soras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\MwDeviceShader.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Soras\MwSorasShader.cpp">
+      <Filter>Source\Graphics\Soras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\DeviceIndependent\MwDeviceIndependentShader.cpp">
+      <Filter>Source\Graphics\DeviceIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Light\MwLight.cpp">
+      <Filter>Source\Engine\Entities\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrame.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameRotationAxis.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameRotationEuler.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameScaling.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFramesTrack.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameTranslation.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms\KeyFrameAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwKeyFrameAnimationMechanism.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Base\MwDispatcher.cpp">
+      <Filter>Source\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Base\MwEntityDispatcher.cpp">
+      <Filter>Source\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Base\MwEntity.cpp">
+      <Filter>Source\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\MwStandardEntityDispatcher.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\Tangents\MwTangentsGenerator.cpp">
+      <Filter>Source\Engine\Utilities\Tangents</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Utilities\MwLogging.cpp">
+      <Filter>Source\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\MwAudioDevice.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\MwAudioDeviceSound.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Sound\MwSoundMedia.cpp">
+      <Filter>Source\Media\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\MwAudioDeviceSoundEmitter.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Sound\Wav\MwWavSoundMedia.cpp">
+      <Filter>Source\Media\Sound\Wav</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Sound\MwSound.cpp">
+      <Filter>Source\Engine\Entities\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\SoundEmitter\MwSoundEmitter.cpp">
+      <Filter>Source\Engine\Entities\SoundEmitter</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Media\Sound\Wav\MwWavSoundMediaDispatcher.cpp">
+      <Filter>Source\Media\Sound\Wav</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\SoundReceptor\MwSoundReceptor.cpp">
+      <Filter>Source\Engine\Entities\SoundReceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Primitive\MwPCMFormat.cpp">
+      <Filter>Source\Engine\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\MwAudioDeviceSoundReceptor.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwLinearInterpolationMechanism.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Properties\MwBoundProperty.cpp">
+      <Filter>Source\Engine\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwTimeRateMechanism.cpp">
+      <Filter>Source\Engine\Entities\Mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\Entities\Script\MwScript.cpp">
+      <Filter>Source\Engine\Entities\Script</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

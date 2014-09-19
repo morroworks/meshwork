@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{128616AE-BF37-4335-AA97-CF1AE795AB31}</ProjectGuid>
+    <RootNamespace>Meshwork</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)Libraries;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Libraries\vld\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)Libraries;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(ProjectDir)Libraries\vld\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>MWDLLCOMPILE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>vld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>MWDLLCOMPILE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>vld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Engine\Entities\Script\MwScript.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwTimeRateMechanism.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwLinearInterpolationMechanism.h" />
+    <ClInclude Include="Source\Sound\MwAudioDeviceSoundReceptor.h" />
+    <ClInclude Include="Source\Engine\Entities\SoundReceptor\MwSoundReceptor.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwPCMFormat.h" />
+    <ClInclude Include="Source\Media\Sound\Wav\MwWavSoundMediaDispatcher.h" />
+    <ClInclude Include="Source\Engine\Entities\Sound\MwSound.h" />
+    <ClInclude Include="Source\Engine\Entities\SoundEmitter\MwSoundEmitter.h" />
+    <ClInclude Include="Source\Media\Sound\Wav\MwWavSoundMedia.h" />
+    <ClInclude Include="Source\Sound\MwAudioDevice.h" />
+    <ClInclude Include="Source\Sound\MwAudioDeviceSound.h" />
+    <ClInclude Include="Source\Sound\MwAudioDeviceSoundEmitter.h" />
+    <ClInclude Include="Source\Engine\Utilities\MwLogging.h" />
+    <ClInclude Include="Source\Engine\Utilities\Tangents\MwTangentsGenerator.h" />
+    <ClInclude Include="Source\Engine\Base\MwEntity.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrame.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameRotationEuler.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameRotationAxis.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameScaling.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFramesTrack.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameTranslation.h" />
+    <ClInclude Include="Source\Engine\Entities\Light\MwLight.h" />
+    <ClInclude Include="Source\Graphics\Soras\MwSorasShader.h" />
+    <ClInclude Include="Source\Graphics\DeviceIndependent\MwDeviceIndependentShader.h" />
+    <ClInclude Include="Source\Graphics\MwDeviceShader.h" />
+    <ClInclude Include="Source\Graphics\Soras\MwSorasGraphicsDeviceDispatcher.h" />
+    <ClInclude Include="Source\Media\Sound\MwSoundMedia.h" />
+    <ClInclude Include="Source\Engine\Utilities\SubMesh\MwSubMesh.h" />
+    <ClInclude Include="Source\Engine\Utilities\SmoothGrouping\MwSmoothGrouping.h" />
+    <ClInclude Include="Source\Engine\Utilities\SmoothGrouping\MwSmoothGroupingPrimitiveTypes.h" />
+    <ClInclude Include="Source\Engine\Utilities\SubMesh\MwSubMeshPrimitiveTypes.h" />
+    <ClInclude Include="Source\Media\Scene\Obj\FileObj\MwFileObjTextureMap.h" />
+    <ClInclude Include="Source\Media\Scene\Obj\FileObj\MwFileObj.h" />
+    <ClInclude Include="Source\Media\Scene\Obj\FileObj\MwFileObjMaterial.h" />
+    <ClInclude Include="Source\Media\Scene\Obj\FileObj\MwFileObjMesh.h" />
+    <ClInclude Include="Source\Media\Scene\Obj\FileObj\MwFileObjPrimitiveTypes.h" />
+    <ClInclude Include="Source\Media\Scene\Obj\MwObjScene.h" />
+    <ClInclude Include="Source\Media\Scene\Obj\MwObjSceneDispatcher.h" />
+    <ClInclude Include="Source\Tools\Networking\TCPIP\MwTcpIpClient.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionTernaryIf.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionCallout.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionDo.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionFor.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionWhile.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionIf.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionVariableDeclaration.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionUnion.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpression.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionAssignment.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionConstantValue.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionEvaluation.h" />
+    <ClInclude Include="Source\Script\Parsing\Expressions\MwScriptExpressionVariable.h" />
+    <ClInclude Include="Source\Script\Parsing\MwScriptDataType.h" />
+    <ClInclude Include="Source\Script\Parsing\MwScriptDataTypes.h" />
+    <ClInclude Include="Source\Script\Parsing\MwScriptIdentifier.h" />
+    <ClInclude Include="Source\Script\Parsing\MwScriptIdentifiers.h" />
+    <ClInclude Include="Source\Script\Parsing\MwScriptToken.h" />
+    <ClInclude Include="Source\Script\Parsing\MwCodeBuilder.h" />
+    <ClInclude Include="Source\Script\Processing\MwCodeProcessor.h" />
+    <ClInclude Include="Source\Script\Parsing\MwScriptTokens.h" />
+    <ClInclude Include="Source\Tools\MwBinaryTree.h" />
+    <ClInclude Include="Source\Tools\MwSortedLinkedList.h" />
+    <ClInclude Include="Source\Engine\MwSerializationParameters.h" />
+    <ClInclude Include="Source\Engine\MwStandardEntityDispatcher.h" />
+    <ClInclude Include="Source\Engine\Base\MwEntityDispatcher.h" />
+    <ClInclude Include="Source\Media\Sound\Wav\WavFile\MwWavFile.h" />
+    <ClInclude Include="Source\Media\Scene\3ds\Mw3dsScene.h" />
+    <ClInclude Include="Source\Media\Scene\3ds\Mw3dsSceneDispatcher.h" />
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsMaterial.h" />
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3ds.h" />
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsBaseObject.h" />
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsCamera.h" />
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsHierarchy.h" />
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsKeyFrames.h" />
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsLight.h" />
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsMesh.h" />
+    <ClInclude Include="Source\Media\Scene\3ds\File3ds\MwFile3dsPrimitiveTypes.h" />
+    <ClInclude Include="Source\Media\MwMedia.h" />
+    <ClInclude Include="Source\Engine\Base\MwDispatcher.h" />
+    <ClInclude Include="Source\Media\Scene\Native\MwNativeScene.h" />
+    <ClInclude Include="Source\Media\Scene\MwScene.h" />
+    <ClInclude Include="Source\Media\Scene\Native\MwNativeFileWriter.h" />
+    <ClInclude Include="Source\Engine\Utilities\Serialization\MwHierarchyStreamWriter.h" />
+    <ClInclude Include="Source\Media\Scene\Native\MwNativeSceneDispatcher.h" />
+    <ClInclude Include="Source\MeshworkEngine.h" />
+    <ClInclude Include="Source\MwGlobals.h" />
+    <ClInclude Include="Source\Engine\Base\MwBaseResource.h" />
+    <ClInclude Include="Source\Engine\Base\MwResourceType.h" />
+    <ClInclude Include="Source\Engine\Entities\Camera\MwCamera.h" />
+    <ClInclude Include="Source\Engine\Entities\Material\MwMaterial.h" />
+    <ClInclude Include="Source\Engine\Properties\MwBoundProperty.h" />
+    <ClInclude Include="Source\Engine\Entities\Material\MwMaterialShaderSlot.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwBaseMechanism.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwDirectionLagMechanism.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwDirectionMechanism.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwFloatMechanism.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwKeyFrameAnimationMechanism.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwLinearMechanism.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwNegateFloatMechanism.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwPivotalMechanism.h" />
+    <ClInclude Include="Source\Engine\Entities\Mechanisms\MwSineMechanism.h" />
+    <ClInclude Include="Source\Engine\Entities\Mesh\MwMesh.h" />
+    <ClInclude Include="Source\Engine\Entities\EntitySet\MwEntitySet.h" />
+    <ClInclude Include="Source\Engine\Entities\Textures\MwTexture2D.h" />
+    <ClInclude Include="Source\Engine\Entities\Transform\MwTransform.h" />
+    <ClInclude Include="Source\Engine\Entities\Transform\MwTransformOperation.h" />
+    <ClInclude Include="Source\Engine\Entities\Transform\MwTransformSlot.h" />
+    <ClInclude Include="Source\Engine\Meshwork.h" />
+    <ClInclude Include="Source\Engine\MwRayIntersectionEvents.h" />
+    <ClInclude Include="Source\Engine\MwRenderEvents.h" />
+    <ClInclude Include="Source\Engine\MwScreenPickEvents.h" />
+    <ClInclude Include="Source\Engine\MwTraceEvents.h" />
+    <ClInclude Include="Source\Engine\MwTraceParameters.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwBounds.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwColorOperation.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwIntersectionInfo.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwMatrix.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwPixelFormat.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwRenderState.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwShaderOperation.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwVector2.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwVector3.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwVector4.h" />
+    <ClInclude Include="Source\Engine\Primitive\MwVertex.h" />
+    <ClInclude Include="Source\Engine\Properties\MwParameter.h" />
+    <ClInclude Include="Source\Engine\Properties\MwParameterType.h" />
+    <ClInclude Include="Source\Engine\Properties\MwProperty.h" />
+    <ClInclude Include="Source\Media\Scene\Native\MwNativeFileId.h" />
+    <ClInclude Include="Source\Media\Scene\Native\MwNativeFileReader.h" />
+    <ClInclude Include="Source\Engine\Utilities\Serialization\MwHierarchyStreamReader.h" />
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwBoxGeometry.h" />
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwConvexHullGeometry.h" />
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwCopyGeometry.h" />
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwHeightMapGeometry.h" />
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwIcosahedronGeometry.h" />
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwMergeGeometry.h" />
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwPlaneGeometry.h" />
+    <ClInclude Include="Source\Engine\Utilities\Geometry\MwSphereGeometry.h" />
+    <ClInclude Include="Source\Engine\Utilities\MwMaths.h" />
+    <ClInclude Include="Source\Engine\Utilities\MwTimer.h" />
+    <ClInclude Include="Source\Engine\Utilities\Normals\MwGenerateNormals.h" />
+    <ClInclude Include="Source\Engine\Utilities\TexCoords\MwPlanarTexCoords.h" />
+    <ClInclude Include="Source\Engine\Utilities\TexCoords\MwSphericalTexCoords.h" />
+    <ClInclude Include="Source\FileSystem\MwFileInfo.h" />
+    <ClInclude Include="Source\FileSystem\MwFileSystem.h" />
+    <ClInclude Include="Source\FileSystem\PhysicalFileSystem\MwPhysicalFileSystem.h" />
+    <ClInclude Include="Source\Graphics\DeviceIndependent\MwDeviceIndependentMesh.h" />
+    <ClInclude Include="Source\Graphics\MwDeviceMesh.h" />
+    <ClInclude Include="Source\Graphics\MwDeviceTexture2D.h" />
+    <ClInclude Include="Source\Graphics\MwGraphicsDevice.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrARGB.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrARGBInt.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrCullModes.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrLight.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrMaterial.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrMatrix.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrShaderOperations.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrShadingParameters.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrTextureSamplers.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrUnit.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector2Int.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector3.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector3Int.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector4.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVector4Int.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Primitive\SrVertex.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\Soras.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\SrMesh.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\SrRenderThread.h" />
+    <ClInclude Include="Source\Graphics\Soras\Engine\SrTexture.h" />
+    <ClInclude Include="Source\Graphics\Soras\MwSorasGraphicsDevice.h" />
+    <ClInclude Include="Source\Graphics\Soras\MwSorasMesh.h" />
+    <ClInclude Include="Source\Graphics\Soras\MwSorasTexture2D.h" />
+    <ClInclude Include="Source\Media\Image\MwImage.h" />
+    <ClInclude Include="Source\Tools\MwDictionary.h" />
+    <ClInclude Include="Source\Tools\MwIntegralQuotientDistribution.h" />
+    <ClInclude Include="Source\Tools\MwLinkedList.h" />
+    <ClInclude Include="Source\Tools\MwList.h" />
+    <ClInclude Include="Source\Tools\MwMath.h" />
+    <ClInclude Include="Source\Tools\MwMem.h" />
+    <ClInclude Include="Source\Tools\Networking\TCPIP\MwTcpIpConnection.h" />
+    <ClInclude Include="Source\Tools\Networking\TCPIP\MwTcpIpListener.h" />
+    <ClInclude Include="Source\Tools\Networking\TCPIP\MwTcpIpServer.h" />
+    <ClInclude Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageComponent.h" />
+    <ClInclude Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageFileListing.h" />
+    <ClInclude Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageHostName.h" />
+    <ClInclude Include="Source\Tools\Networking\WebServer\MwWebRequest.h" />
+    <ClInclude Include="Source\Tools\Networking\WebServer\MwWebResponse.h" />
+    <ClInclude Include="Source\Tools\Networking\WebServer\MwWebServer.h" />
+    <ClInclude Include="Source\Tools\OS\MwDrawSurface.h" />
+    <ClInclude Include="Source\Tools\OS\MwOSUtils.h" />
+    <ClInclude Include="Source\Tools\OS\MwWindowsForm.h" />
+    <ClInclude Include="Source\Tools\MwRandomPool.h" />
+    <ClInclude Include="Source\Tools\MwStack.h" />
+    <ClInclude Include="Source\Tools\MwString.h" />
+    <ClInclude Include="Source\Tools\Streams\MwBaseStream.h" />
+    <ClInclude Include="Source\Tools\Streams\MwFileStream.h" />
+    <ClInclude Include="Source\Tools\Streams\MwMemoryStream.h" />
+    <ClInclude Include="Source\Tools\Streams\MwSubStream.h" />
+    <ClInclude Include="Source\Tools\MwStrings.h" />
+    <ClInclude Include="Source\Tools\Threading\MwMutex.h" />
+    <ClInclude Include="Source\Tools\Threading\MwThread.h" />
+    <ClInclude Include="Source\Tools\Threading\MwThreadsPool.h" />
+    <ClInclude Include="Source\Tools\Threading\MwThreadsPoolThread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Engine\Entities\Script\MwScript.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwTimeRateMechanism.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwLinearInterpolationMechanism.cpp" />
+    <ClCompile Include="Source\Sound\MwAudioDeviceSoundReceptor.cpp" />
+    <ClCompile Include="Source\Engine\Entities\SoundReceptor\MwSoundReceptor.cpp" />
+    <ClCompile Include="Source\Engine\Primitive\MwPCMFormat.cpp" />
+    <ClCompile Include="Source\Media\Sound\Wav\MwWavSoundMediaDispatcher.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Sound\MwSound.cpp" />
+    <ClCompile Include="Source\Engine\Entities\SoundEmitter\MwSoundEmitter.cpp" />
+    <ClCompile Include="Source\Media\Sound\Wav\MwWavSoundMedia.cpp" />
+    <ClCompile Include="Source\Sound\MwAudioDevice.cpp" />
+    <ClCompile Include="Source\Sound\MwAudioDeviceSound.cpp" />
+    <ClCompile Include="Source\Sound\MwAudioDeviceSoundEmitter.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\MwLogging.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Tangents\MwTangentsGenerator.cpp" />
+    <ClCompile Include="Source\Engine\Base\MwEntity.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrame.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameRotationEuler.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameRotationAxis.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameScaling.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFramesTrack.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\KeyFrameAnimation\MwKeyFrameTranslation.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Light\MwLight.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\MwSorasShader.cpp" />
+    <ClCompile Include="Source\Graphics\DeviceIndependent\MwDeviceIndependentShader.cpp" />
+    <ClCompile Include="Source\Graphics\MwDeviceShader.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\MwSorasGraphicsDeviceDispatcher.cpp" />
+    <ClCompile Include="Source\Media\Sound\MwSoundMedia.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\SubMesh\MwSubMesh.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\SmoothGrouping\MwSmoothGrouping.cpp" />
+    <ClCompile Include="Source\Media\Scene\Obj\FileObj\MwFileObjTextureMap.cpp" />
+    <ClCompile Include="Source\Media\Scene\Obj\FileObj\MwFileObj.cpp" />
+    <ClCompile Include="Source\Media\Scene\Obj\FileObj\MwFileObjMaterial.cpp" />
+    <ClCompile Include="Source\Media\Scene\Obj\FileObj\MwFileObjMesh.cpp" />
+    <ClCompile Include="Source\Media\Scene\Obj\FileObj\MwFileObjPrimitiveTypes.cpp" />
+    <ClCompile Include="Source\Media\Scene\Obj\MwObjScene.cpp" />
+    <ClCompile Include="Source\Media\Scene\Obj\MwObjSceneDispatcher.cpp" />
+    <ClCompile Include="Source\Tools\Networking\TCPIP\MwTcpIpClient.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionTernaryIf.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionCallout.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionDo.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionFor.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionWhile.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionIf.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionVariableDeclaration.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionUnion.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpression.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionAssignment.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionConstantValue.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionEvaluation.cpp" />
+    <ClCompile Include="Source\Script\Parsing\Expressions\MwScriptExpressionVariable.cpp" />
+    <ClCompile Include="Source\Script\Parsing\MwScriptDataType.cpp" />
+    <ClCompile Include="Source\Script\Parsing\MwScriptDataTypes.cpp" />
+    <ClCompile Include="Source\Script\Parsing\MwScriptIdentifier.cpp" />
+    <ClCompile Include="Source\Script\Parsing\MwScriptIdentifiers.cpp" />
+    <ClCompile Include="Source\Script\Parsing\MwCodeBuilder.cpp" />
+    <ClCompile Include="Source\Script\Parsing\MwScriptToken.cpp" />
+    <ClCompile Include="Source\Script\Processing\MwCodeProcessor.cpp" />
+    <ClCompile Include="Source\Script\Parsing\MwScriptTokens.cpp" />
+    <ClCompile Include="Source\Engine\MwStandardEntityDispatcher.cpp" />
+    <ClCompile Include="Source\Engine\Base\MwEntityDispatcher.cpp" />
+    <ClCompile Include="Source\Media\Sound\Wav\WavFile\MwWavFile.cpp" />
+    <ClCompile Include="Source\Media\Scene\3ds\Mw3dsScene.cpp" />
+    <ClCompile Include="Source\Media\Scene\3ds\Mw3dsSceneDispatcher.cpp" />
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsMaterial.cpp" />
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3ds.cpp" />
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsBaseObject.cpp" />
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsCamera.cpp" />
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsHierarchy.cpp" />
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsKeyFrames.cpp" />
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsLight.cpp" />
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsMesh.cpp" />
+    <ClCompile Include="Source\Media\Scene\3ds\File3ds\MwFile3dsPrimitiveTypes.cpp" />
+    <ClCompile Include="Source\Media\MwMedia.cpp" />
+    <ClCompile Include="Source\Engine\Base\MwDispatcher.cpp" />
+    <ClCompile Include="Source\Media\Scene\Native\MwNativeScene.cpp" />
+    <ClCompile Include="Source\Media\Scene\MwScene.cpp" />
+    <ClCompile Include="Source\Media\Scene\Native\MwNativeFileWriter.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Serialization\MwHierarchyStreamWriter.cpp" />
+    <ClCompile Include="Source\Media\Scene\Native\MwNativeSceneDispatcher.cpp" />
+    <ClCompile Include="Source\dllMain.cpp" />
+    <ClCompile Include="Source\Engine\Base\MwBaseResource.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Camera\MwCamera.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Material\MwMaterial.cpp" />
+    <ClCompile Include="Source\Engine\Properties\MwBoundProperty.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Material\MwMaterialShaderSlot.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwBaseMechanism.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwDirectionLagMechanism.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwDirectionMechanism.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwFloatMechanism.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwKeyFrameAnimationMechanism.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwLinearMechanism.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwNegateFloatMechanism.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwPivotalMechanism.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mechanisms\MwSineMechanism.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Mesh\MwMesh.cpp" />
+    <ClCompile Include="Source\Engine\Entities\EntitySet\MwEntitySet.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Textures\MwTexture2D.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Transform\MwTransform.cpp" />
+    <ClCompile Include="Source\Engine\Entities\Transform\MwTransformSlot.cpp" />
+    <ClCompile Include="Source\Engine\Meshwork.cpp" />
+    <ClCompile Include="Source\Engine\MwRayIntersectionEvents.cpp" />
+    <ClCompile Include="Source\Engine\MwRenderEvents.cpp" />
+    <ClCompile Include="Source\Engine\MwScreenPickEvents.cpp" />
+    <ClCompile Include="Source\Engine\MwTraceEvents.cpp" />
+    <ClCompile Include="Source\Engine\MwTraceParameters.cpp" />
+    <ClCompile Include="Source\Engine\Primitive\MwBounds.cpp" />
+    <ClCompile Include="Source\Engine\Primitive\MwIntersectionInfo.cpp" />
+    <ClCompile Include="Source\Engine\Primitive\MwMatrix.cpp" />
+    <ClCompile Include="Source\Engine\Primitive\MwPixelFormat.cpp" />
+    <ClCompile Include="Source\Engine\Primitive\MwVector2.cpp" />
+    <ClCompile Include="Source\Engine\Primitive\MwVector3.cpp" />
+    <ClCompile Include="Source\Engine\Primitive\MwVector4.cpp" />
+    <ClCompile Include="Source\Engine\Primitive\MwVertex.cpp" />
+    <ClCompile Include="Source\Engine\Properties\MwParameter.cpp" />
+    <ClCompile Include="Source\Engine\Properties\MwProperty.cpp" />
+    <ClCompile Include="Source\Media\Scene\Native\MwNativeFileReader.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Serialization\MwHierarchyStreamReader.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwBoxGeometry.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwConvexHullGeometry.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwCopyGeometry.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwHeightMapGeometry.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwIcosahedronGeometry.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwMergeGeometry.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwPlaneGeometry.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Geometry\MwSphereGeometry.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\MwMaths.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\MwTimer.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\Normals\MwGenerateNormals.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\TexCoords\MwPlanarTexCoords.cpp" />
+    <ClCompile Include="Source\Engine\Utilities\TexCoords\MwSphericalTexCoords.cpp" />
+    <ClCompile Include="Source\FileSystem\MwFileSystem.cpp" />
+    <ClCompile Include="Source\FileSystem\PhysicalFileSystem\MwPhysicalFileSystem.cpp" />
+    <ClCompile Include="Source\Graphics\DeviceIndependent\MwDeviceIndependentMesh.cpp" />
+    <ClCompile Include="Source\Graphics\MwDeviceMesh.cpp" />
+    <ClCompile Include="Source\Graphics\MwDeviceTexture2D.cpp" />
+    <ClCompile Include="Source\Graphics\MwGraphicsDevice.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\Engine\Primitive\SrCullModes.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\Engine\Primitive\SrMatrix.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\Engine\Primitive\SrShaderOperations.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\Engine\Primitive\SrTextureSamplers.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\Engine\Soras.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\Engine\SrMesh.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\Engine\SrRenderThread.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\Engine\SrTexture.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\MwSorasGraphicsDevice.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\MwSorasMesh.cpp" />
+    <ClCompile Include="Source\Graphics\Soras\MwSorasTexture2D.cpp" />
+    <ClCompile Include="Source\Media\Image\MwImage.cpp" />
+    <ClCompile Include="Source\Tools\MwIntegralQuotientDistribution.cpp" />
+    <ClCompile Include="Source\Tools\MwMath.cpp" />
+    <ClCompile Include="Source\Tools\MwMem.cpp" />
+    <ClCompile Include="Source\Tools\Networking\TCPIP\MwTcpIpConnection.cpp" />
+    <ClCompile Include="Source\Tools\Networking\TCPIP\MwTcpIpListener.cpp" />
+    <ClCompile Include="Source\Tools\Networking\TCPIP\MwTcpIpServer.cpp" />
+    <ClCompile Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageComponent.cpp" />
+    <ClCompile Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageFileListing.cpp" />
+    <ClCompile Include="Source\Tools\Networking\WebServer\WebPageComponents\MwWebPageHostName.cpp" />
+    <ClCompile Include="Source\Tools\Networking\WebServer\MwWebRequest.cpp" />
+    <ClCompile Include="Source\Tools\Networking\WebServer\MwWebResponse.cpp" />
+    <ClCompile Include="Source\Tools\Networking\WebServer\MwWebServer.cpp" />
+    <ClCompile Include="Source\Tools\OS\MwDrawSurface.cpp" />
+    <ClCompile Include="Source\Tools\OS\MwOSUtils.cpp" />
+    <ClCompile Include="Source\Tools\OS\MwWindowsForm.cpp" />
+    <ClCompile Include="Source\Tools\MwRandomPool.cpp" />
+    <ClCompile Include="Source\Tools\MwString.cpp" />
+    <ClCompile Include="Source\Tools\Streams\MwBaseStream.cpp" />
+    <ClCompile Include="Source\Tools\Streams\MwFileStream.cpp" />
+    <ClCompile Include="Source\Tools\Streams\MwMemoryStream.cpp" />
+    <ClCompile Include="Source\Tools\Streams\MwSubStream.cpp" />
+    <ClCompile Include="Source\Tools\MwStrings.cpp" />
+    <ClCompile Include="Source\Tools\Threading\MwMutex.cpp" />
+    <ClCompile Include="Source\Tools\Threading\MwThread.cpp" />
+    <ClCompile Include="Source\Tools\Threading\MwThreadsPool.cpp" />
+    <ClCompile Include="Source\Tools\Threading\MwThreadsPoolThread.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

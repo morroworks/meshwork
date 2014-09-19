@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6a88432b-8138-4604-9f38-f33c44035793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{82336d33-f658-4f8e-b7fb-2e5d2b895484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Direct3D11">
+      <UniqueIdentifier>{c03d4807-7a95-4975-892c-c3196f319506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Direct3D11\DynamicShading">
+      <UniqueIdentifier>{34affaf5-7e61-4148-83a2-28fed7c8a7f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\dllMain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Direct3D11\MwDirect3D11Dispatcher.cpp">
+      <Filter>Source\Graphics\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Direct3D11\MwDirect3D11GraphicsDevice.cpp">
+      <Filter>Source\Graphics\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Direct3D11\MwDirect3D11Mesh.cpp">
+      <Filter>Source\Graphics\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Direct3D11\MwDirect3D11Shader.cpp">
+      <Filter>Source\Graphics\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Direct3D11\MwDirect3D11Texture2D.cpp">
+      <Filter>Source\Graphics\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Direct3D11\DynamicShading\MwDynamicShaderWriter.cpp">
+      <Filter>Source\Graphics\Direct3D11\DynamicShading</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Direct3D11\MwDirect3D11ConstantBuffer.cpp" />
+    <ClCompile Include="Source\Graphics\Direct3D11\DynamicShading\MwDynamicShaderBlockDefinitions.cpp">
+      <Filter>Source\Graphics\Direct3D11\DynamicShading</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Direct3D11\DynamicShading\MwDynamicShaderConstantBufferInfo.cpp">
+      <Filter>Source\Graphics\Direct3D11\DynamicShading</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\MeshworkEngine.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Direct3D11\MwDirect3D11Texture2D.h">
+      <Filter>Source\Graphics\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Direct3D11\MwDirect3D11Dispatcher.h">
+      <Filter>Source\Graphics\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Direct3D11\MwDirect3D11GraphicsDevice.h">
+      <Filter>Source\Graphics\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Direct3D11\MwDirect3D11Mesh.h">
+      <Filter>Source\Graphics\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Direct3D11\MwDirect3D11Shader.h">
+      <Filter>Source\Graphics\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Direct3D11\DynamicShading\MwDynamicShaderWriter.h">
+      <Filter>Source\Graphics\Direct3D11\DynamicShading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Direct3D11\MwDirect3D11ConstantBuffer.h" />
+    <ClInclude Include="Source\Graphics\Direct3D11\DynamicShading\MwDynamicShaderBlockDefinitions.h">
+      <Filter>Source\Graphics\Direct3D11\DynamicShading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Direct3D11\DynamicShading\MwDynamicShaderConstantBufferInfo.h">
+      <Filter>Source\Graphics\Direct3D11\DynamicShading</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

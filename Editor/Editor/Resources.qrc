@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>Icons/Resources/Camera.png</file>
+        <file>Icons/Resources/Light.png</file>
+        <file>Icons/Resources/Material.png</file>
+        <file>Icons/Resources/Mechanism.png</file>
+        <file>Icons/Resources/Mesh.png</file>
+        <file>Icons/Resources/Render Target.png</file>
+        <file>Icons/Resources/Texture.png</file>
+        <file>Icons/Resources/Transform.png</file>
+        <file>Icons/Resources/Script.png</file>
+        <file>Icons/Manipulate/RecallParameter.png</file>
+        <file>Icons/Manipulate/Rotate.png</file>
+        <file>Icons/Manipulate/Select.png</file>
+        <file>Icons/Manipulate/Pause.png</file>
+        <file>Icons/Manipulate/Play.png</file>
+        <file>Icons/Resources/EntitySet.png</file>
+        <file>Icons/Manipulate/BackArrow.png</file>
+        <file>Icons/Manipulate/Delete.png</file>
+        <file>Icons/Manipulate/ForwardArrow.png</file>
+        <file>Icons/Resources/Path.png</file>
+        <file>Icons/Resources/SoundEmitter.png</file>
+        <file>Icons/Resources/SoundReceptor.png</file>
+        <file>Icons/Resources/Sound.png</file>
+        <file>Icons/Manipulate/MoveDown.png</file>
+        <file>Icons/Manipulate/MoveUp.png</file>
+        <file>Icons/Other/Properties.png</file>
+        <file>Icons/Manipulate/New.png</file>
+        <file>Icons/Manipulate/Insert.png</file>
+        <file>Icons/Manipulate/Translate.png</file>
+        <file>Icons/Other/ScriptProperties.png</file>
+        <file>Icons/Manipulate/Fly.png</file>
+        <file>Icons/Manipulate/X.png</file>
+        <file>Icons/Manipulate/Y.png</file>
+        <file>Icons/Manipulate/Z.png</file>
+        <file>Icons/Manipulate/Scale.png</file>
+        <file>Icons/Other/Main Icon.ico</file>
+    </qresource>
+</RCC>

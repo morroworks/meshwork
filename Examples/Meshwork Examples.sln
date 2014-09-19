@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1. Hello Meshworld", "1. Hello Meshworld\1. Hello Meshworld.vcxproj", "{BC6B5A59-25DB-4538-AF2B-7995989AE156}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2. Camera And Navigation", "2. Camera And Navigation\2. Camera And Navigation.vcxproj", "{58F4EF8E-C382-4EC3-8ED5-AA9F0F384D5F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Web Server", "Web Server\Web Server.vcxproj", "{DE5EADD7-44BE-4DEC-9634-0212818DC90C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC6B5A59-25DB-4538-AF2B-7995989AE156}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC6B5A59-25DB-4538-AF2B-7995989AE156}.Debug|Win32.Build.0 = Debug|Win32
+		{BC6B5A59-25DB-4538-AF2B-7995989AE156}.Release|Win32.ActiveCfg = Release|Win32
+		{BC6B5A59-25DB-4538-AF2B-7995989AE156}.Release|Win32.Build.0 = Release|Win32
+		{58F4EF8E-C382-4EC3-8ED5-AA9F0F384D5F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58F4EF8E-C382-4EC3-8ED5-AA9F0F384D5F}.Debug|Win32.Build.0 = Debug|Win32
+		{58F4EF8E-C382-4EC3-8ED5-AA9F0F384D5F}.Release|Win32.ActiveCfg = Release|Win32
+		{58F4EF8E-C382-4EC3-8ED5-AA9F0F384D5F}.Release|Win32.Build.0 = Release|Win32
+		{DE5EADD7-44BE-4DEC-9634-0212818DC90C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE5EADD7-44BE-4DEC-9634-0212818DC90C}.Debug|Win32.Build.0 = Debug|Win32
+		{DE5EADD7-44BE-4DEC-9634-0212818DC90C}.Release|Win32.ActiveCfg = Release|Win32
+		{DE5EADD7-44BE-4DEC-9634-0212818DC90C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
